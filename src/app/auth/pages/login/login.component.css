@@ -1,0 +1,36 @@
+.main-container{
+    height: 100vh;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.login-form{
+    position: absolute;
+    display: flex;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    justify-content: end;
+}
+.login-form nb-layout{
+    background-color: rgba(0,0,0,0) !important;
+    min-width: 300px;
+    width: 25%;
+}
+.login-form div.layout{
+}
+.login-form nb-layout nb-layout-column{
+    align-items: center;
+    display: flex;
+}
+form input{
+    width: 100%;
+}
+button{
+    margin-top: 16px;
+}

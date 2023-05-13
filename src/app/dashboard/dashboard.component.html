@@ -1,0 +1,14 @@
+<nb-layout>
+    <nb-layout-header>    
+        <button nbButton (click)="toggleSidebar()">
+            <nb-icon icon="menu-outline"></nb-icon>
+        </button>
+        <span class="brand">JAAPSSA</span>
+    </nb-layout-header>
+    <nb-sidebar>
+        <app-sidebar></app-sidebar>
+    </nb-sidebar>
+    <nb-layout-column>
+        <router-outlet></router-outlet>
+    </nb-layout-column>
+</nb-layout>

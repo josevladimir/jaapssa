@@ -23,6 +23,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@nebular/theme/styles/prebuilt/corporate.css",
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
